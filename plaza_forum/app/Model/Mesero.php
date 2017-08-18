@@ -35,4 +35,14 @@ class Mesero extends AppModel{
         )
         
     );
+    public $hasMany = array(
+        'Auditorio'=>array(
+            'className' => 'Auditorio',
+            'foreignKey' => 'mesero_id',
+            'conditions' => '',
+            'order' => 'serie DESC',
+            'depend' => false
+        )
+    );
+    
 }
