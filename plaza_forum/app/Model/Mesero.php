@@ -6,6 +6,7 @@
  * and open the template in the editor.
  */
 class Mesero extends AppModel{
+    public $virtualFields = array('nombre_completo'=>'CONCAT(Mesero.nombres," ", Mesero.apellidos)');
     public $validate=array(
         'cedula'=>array(
             'notEmpty'=>array(
