@@ -22,4 +22,4 @@
     </p>
 <?php endforeach; ?>
 <?php echo $this->Html->link('Volver a lista de meseros',array('controller'=>'meseros',
-    'action'=>'index')); ?>
+    'action'=>'index'), array('class'=>'btn btn-sm btn-default')); ?>

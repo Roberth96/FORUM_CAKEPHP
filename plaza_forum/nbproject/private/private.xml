@@ -3,14 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/plaza_forum/app/View/Auditorios/index.ctp</file>
-            <file>file:/C:/xampp/htdocs/plaza_forum/app/Controller/MeserosController.php</file>
-            <file>file:/C:/xampp/htdocs/plaza_forum/app/View/Meseros/ver.ctp</file>
-            <file>file:/C:/xampp/htdocs/plaza_forum/app/View/Auditorios/editar.ctp</file>
-            <file>file:/C:/xampp/htdocs/plaza_forum/app/Controller/AuditoriosController.php</file>
-            <file>file:/C:/xampp/htdocs/plaza_forum/app/Model/Auditorio.php</file>
-            <file>file:/C:/xampp/htdocs/plaza_forum/app/Model/Mesero.php</file>
-            <file>file:/C:/xampp/htdocs/plaza_forum/app/View/Auditorios/nuevo.ctp</file>
+            <file>file:/C:/xampp/htdocs/plaza_forum/app/View/Pages/home.ctp</file>
         </group>
     </open-files>
 </project-private>

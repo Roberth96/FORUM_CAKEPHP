@@ -1,5 +1,5 @@
 <?php
-
+		
 /* 
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -15,8 +15,8 @@ class AuditoriosController extends AppController{
         if($this->request->is('post')){
             $this->Auditorio->create();
             if($this->Auditorio->save($this->request->data)){
-                $this->Session->setFlash('El auditorio ha sido creado', 'default',
-                        array('class'=>'sucess'));
+                $this->Session->setFlash('El auditorio ha sido creado', $element = 'default',
+                        $params = array('class'=>'success'));
                         return $this->redirect(array('action'=>'index'));                      
             }
             $this->Session->setFlash('No se pudo crear auditorio');
@@ -59,5 +59,8 @@ class AuditoriosController extends AppController{
             return $this->redirect(array('action'=>'index'));
         }
     }
+   
+		
+	
 }
 ?>
